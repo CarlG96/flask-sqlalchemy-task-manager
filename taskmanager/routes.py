@@ -6,3 +6,6 @@ from taskmanager.model import Category, Task
 def home():
     return render_template("task.html")
 
+
+@app.route("/categories")
+
